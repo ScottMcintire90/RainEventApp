@@ -35,7 +35,7 @@
         android:id="@+id/imageView"
         android:maxWidth="10dp"
         android:src="@drawable/acceptto"
-        android:layout_marginBottom="49dp"
+        android:layout_marginBottom="19dp"
         android:layout_marginRight="72dp"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/password"
