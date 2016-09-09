@@ -67,16 +67,35 @@ public class BaseActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if(position == 1) {
                     myWebView.loadUrl("http://rainrfid.acceptto.com/program/");
-
-
-
+                    mDrawerLayout.closeDrawers();
                 }
                 if(position == 0) {
                     myWebView.loadUrl("http://rainrfid.acceptto.com");
+                    mDrawerLayout.closeDrawers();
                 }
-//                if(position == 1) {
-//                    myWebView.loadUrl("http://rainrfid.acceptto.com/program/");
-//                }
+                if(position == 2) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/sightseeing/");
+                }
+                if(position == 3) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/accommodation/");
+                    mDrawerLayout.closeDrawers();
+                }
+                if(position == 4) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/transportation/");
+                    mDrawerLayout.closeDrawers();
+                }
+                if(position == 5) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/members/");
+                    mDrawerLayout.closeDrawers();
+                }
+                if(position == 6) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/sponsors/");
+                    mDrawerLayout.closeDrawers();
+                }
+                if(position == 7) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/contact-us/");
+                    mDrawerLayout.closeDrawers();
+                }
             }
         });
     }
