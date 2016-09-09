@@ -1,8 +1,11 @@
 package com.epicodus.raineventapp;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -10,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -19,6 +24,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class BaseActivity extends AppCompatActivity {
+    private WebView myWebView;
     @Bind(R.id.navList)
     ListView mDrawerList;
     private ArrayAdapter<String> mAdapter;
@@ -31,7 +37,17 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreateDrawer() {
         setContentView(R.layout.activity_main);
 
-        ButterKnife.bind(this);
+        myWebView = (WebView) findViewById(R.id.webView);
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.getSettings().setDomStorageEnabled(true);
+        myWebView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onLoadResource(WebView view, String url) {
+                myWebView.loadUrl("javascript:(function() { " + "document.getElementsByClassName('dl-trigger')[0].style.display = 'none'; " + "})()");
+            }
+        });
+
+    ButterKnife.bind(this);
         mActivityTitle = getTitle().toString();
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -42,17 +58,29 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     private void addDrawerItems() {
-        String[] navArray = {"Members", "Agenda", "FastVin", "ImHere", "Health", "My Events", "Maps", "Edt Profile" };
+        String[] navArray = {"Homepage", "Program", "Sightseeing", "Accommodation", "Transportation", "Members", "Sponsors", "Contact Us" };
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, navArray);
         mDrawerList.setAdapter(mAdapter);
 
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(BaseActivity.this, "Test", Toast.LENGTH_SHORT).show();
+                if(position == 1) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com/program/");
+
+
+
+                }
+                if(position == 0) {
+                    myWebView.loadUrl("http://rainrfid.acceptto.com");
+                }
+//                if(position == 1) {
+//                    myWebView.loadUrl("http://rainrfid.acceptto.com/program/");
+//                }
             }
         });
     }
+
 
     private void setupDrawer() {
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.drawer_open, R.string.drawer_close) {
@@ -107,6 +135,9 @@ public class BaseActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+
+
+
 
         // Activate the navigation drawer toggle
         if (mDrawerToggle.onOptionsItemSelected(item)) {

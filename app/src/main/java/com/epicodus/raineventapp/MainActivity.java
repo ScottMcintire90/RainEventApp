@@ -8,8 +8,10 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class MainActivity extends BaseActivity {
+    private WebView myWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,20 +20,17 @@ public class MainActivity extends BaseActivity {
         super.onCreateDrawer();
         DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        WebView myWebView = (WebView) findViewById(R.id.webView);
-
+        myWebView = (WebView) findViewById(R.id.webView);
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.getSettings().setDomStorageEnabled(true);
         myWebView.setWebViewClient(new WebViewClient() {
             @Override
-            public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                view.loadUrl(request.toString());
-                return true;
+            public void onLoadResource(WebView view, String url) {
+                myWebView.loadUrl("javascript:(function() { " + "document.getElementsByClassName('dl-trigger')[0].style.display = 'none'; " + "})()");
+
             }
         });
-
-        WebSettings webSettings = myWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("http://rainrfid.acceptto.com");
-
+        myWebView.loadUrl("https://rainrfid.acceptto.com");
     }
 
     @Override
@@ -52,6 +51,12 @@ public class MainActivity extends BaseActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+
+        if(id == 1) {
+            myWebView.loadUrl("http://rainrfid.acceptto.com/program/");
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
