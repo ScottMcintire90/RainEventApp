@@ -58,7 +58,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     private void addDrawerItems() {
-        String[] navArray = {"Homepage", "Program", "Sightseeing", "Accommodation", "Transportation", "Members", "Sponsors", "Contact Us" };
+        String[] navArray = {"Homepage", "Program", "Sightseeing", "Accommodation", "Transportation", "Members", "Sponsors", "Contact Us", "FastVIn(TM)", "IamHere(TM)" };
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, navArray);
         mDrawerList.setAdapter(mAdapter);
 

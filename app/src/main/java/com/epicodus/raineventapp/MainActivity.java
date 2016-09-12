@@ -27,6 +27,7 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onLoadResource(WebView view, String url) {
                 myWebView.loadUrl("javascript:(function() { " + "document.getElementsByClassName('dl-trigger')[0].style.display = 'none'; " + "})()");
+                myWebView.loadUrl("javascript:(function() { " + "document.getElementsByClassName('msp-cn-1-11')[0].style.display = 'none'; " + "})()");
 
             }
         });
