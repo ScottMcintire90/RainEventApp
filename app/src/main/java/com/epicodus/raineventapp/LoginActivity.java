@@ -1,6 +1,5 @@
 package com.epicodus.raineventapp;
-
-        import android.content.Intent;
+import android.content.Intent;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.view.View;
@@ -9,23 +8,23 @@ package com.epicodus.raineventapp;
         import butterknife.Bind;
         import butterknife.ButterKnife;
 
-        public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+    public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
         @Bind(R.id.signInButton) Button mSignInButton;
 
-               @Override
+        @Override
         protected void onCreate(Bundle savedInstanceState) {
-                super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_login);
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_login);
 
-                        ButterKnife.bind(this);
-                mSignInButton.setOnClickListener(this);
+            ButterKnife.bind(this);
+            mSignInButton.setOnClickListener(this);
            }
 
-                @Override
+        @Override
         public void onClick(View v) {
-                if(v == mSignInButton) {
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                        startActivity(intent);
-                    }
+            if(v == mSignInButton) {
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
             }
+        }
     }
