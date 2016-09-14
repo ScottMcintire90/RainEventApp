@@ -2,10 +2,143 @@
 <items version="2" >
 
     <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_7862e37a5123ff29f3b669d2b99d5a10c27f0658/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f4754980e834a274e685e4435db0d2c2b3c9bd9b">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_af4c847af33ad8fb0efa1d17e1efeb7a88066a39/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_9df85384ea6f223920b88c2e9cbcb6407a5eaa92/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_aceed0e15ce92d11275eb24d00b0654032f531c8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_a34faff15c9325d780cbd42c2434427d9c56bb34/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_f0a171be5fc87783ebdbcd95fad1c06f16063ba0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_01b9c05bb6add62548f0f12e29ccf5448fe28eab/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_6a1ce59870146ca58c56e76b4a606e5de18574c8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_73ab75b9ecd1e2e39685accf9d7990767e6e3d07/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_64bb1fc081abc1508ca992531ebafd6b2da4ca14/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_a84d7005e4387a30b7a6c5414d6ced81cc2f4c2f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_8642f862520ea82c0eacbe9a54dd437d02a5a61c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_c2e584cc7d7a98ac2f07184f299c6d4bb7e63e80/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b70f6df4069380d077358ca6d6ed9acb73c163c9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_f42a54fd132494e910c2948c17ea3bca6ee84dfb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_385d19888a7d48f459d4e86232428ebbb09b63c4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_d1d1976458991ce89e6cea9ca00b27ab9d73ecb4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_b25a4bc98332abc0b38e7a8c5649475747cfadaf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_527023ad1a4e3397ddab1375fef7b5afbacd0fde/classes.dex" />
+    </item>
+    <item
         jar="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="337e68fd3128aa23c3bc6b304ed3aa1d45134d7f">
+        sha1="04eef22e893015d3fa8b9945058918ebe8f445c2">
         <dex dex="/Users/corybiggs6/Desktop/Acceptto Work/RainEventApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_31d5781c0b447f739093aa58f485fc28ddbcdff5/classes.dex" />
     </item>
 

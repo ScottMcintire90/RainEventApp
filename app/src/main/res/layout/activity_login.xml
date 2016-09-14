@@ -35,11 +35,9 @@
         android:id="@+id/imageView"
         android:maxWidth="10dp"
         android:src="@drawable/acceptto"
-        android:layout_marginBottom="19dp"
-        android:layout_marginRight="72dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/password"
-        android:layout_alignEnd="@+id/password" />
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,9 +45,9 @@
         android:text="Powered by"
         android:id="@+id/textView"
         android:textSize="20sp"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_toLeftOf="@+id/imageView"
-        android:layout_toStartOf="@+id/imageView" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
 
     <EditText
         android:layout_width="wrap_content"
